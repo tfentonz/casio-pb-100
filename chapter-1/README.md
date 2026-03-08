@@ -24,9 +24,9 @@ P0
   10 PRINT ”HI-LO”
   20 K=0:INPUT ”KEY IN LENGTH ”,L
   30 R=INT (RAN$*10↑L)
-  40 INPUT ”KEY IN NO.”,A:K=K+1:H$="HI"
+  40 INPUT ”KEY IN NO.”,A:K=K+1:H$=”HI”
   50 IF A=R THEN 80
-  60 IF A<R;H$="LO"
+  60 IF A<R;H$=”LO”
   70 PRINT H$;”:K=”;K:GOTO 40
   80 PRINT ”GOOD:ANS=”;R:PRINT ”K=”;K:GOTO 20
 ```
